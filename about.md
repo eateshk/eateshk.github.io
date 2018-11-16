@@ -4,12 +4,11 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
-
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+Hi, I'm Eatesh - A generalist software developer. I work for Microsoft.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+Get in touch @[Twitter](https://twitter.com/kandpaleatesh) , @[LinkedIn](https://www.linkedin.com/in/eatesh-kandpal-19238128)
+
+You can contact me at:
+[(concat "kandpal" "eatesh" "@" "gmail" "." "com")](mailto:kandpaleatesh@gmail.com)

@@ -1,0 +1,12 @@
+---
+layout: default
+permalink: /scala/
+---
+{% for blog in site.scala_experiments %}
+  <h2>
+    <a href="{{ blog.url }}">
+      {{ blog.title }}
+    </a>
+  </h2>
+  <p>{{ log.content | markdownify }}</p>
+{% endfor %}
