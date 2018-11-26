@@ -2,6 +2,8 @@
 title: "Elastic Search Cluster Setup"
 date: "2018-11-26"
 description: "From Binary on an Ubuntu VM on Azure"
+topics: ["elasticsearch", "Software Setup"]
+tags: ["elasticsearch", "es", "elastic"]
 ---
 
 # Preparation 
@@ -63,7 +65,9 @@ Need to set these configurations differently on different machines according to 
 >  sudo systemctl start elasticsearch.service || OR sudo service elasticsearch start
 
 ## Check Health
-http://master_ip:port/_cluster/stats?human&pretty
+There are many APIs with which you can check health and configuration of your cluster. I prefer the dialect below
+
+    http://master_ip:port/_cluster/stats?human&pretty
 
 
 
