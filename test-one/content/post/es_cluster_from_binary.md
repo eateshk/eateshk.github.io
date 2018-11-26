@@ -1,7 +1,7 @@
 ---
-title = "Elastic Search Cluster Setup from Binary"
-date = "2018-11-26"
-Xdescription = "On Ubuntu on Azure"
+title: "Elastic Search Cluster Setup"
+date: "2018-11-26"
+description: "From Binary on an Ubuntu VM on Azure"
 ---
 
 # Preparation 
@@ -17,28 +17,32 @@ Get an ubuntu box - you can find  [version compatibility](https://www.elastic.co
 
 ## Step 2
 Install Oracle Java. Compatibility matrix in same link as above.
-> sudo apt-get update && sudo apt-get upgrade
-> sudo apt-get install software-properties-common
-> sudo add-apt-repository ppa:linuxuprising/java
-> sudo apt-get update
-> sudo add-apt-repository ppa:webupd8team/java
-> sudo apt-get update
-> sudo apt-get install oracle-java8-installer
+
+    > sudo apt-get update && sudo apt-get upgrade
+    > sudo apt-get install software-properties-common
+    > sudo add-apt-repository ppa:linuxuprising/java
+    > sudo apt-get update
+    > sudo add-apt-repository ppa:webupd8team/java
+    > sudo apt-get update
+    > sudo apt-get install oracle-java8-installer
 
 Set JAVA_HOME
-> vim /etc/environment 
->   Add below content
->   > JAVA_HOME="/usr/lib/jvm/java-8-oracle"
->   > export JAVA_HOME
-> source /etc/environment
+
+    > vim /etc/environment 
+    >   Add below content
+    >   JAVA_HOME="/usr/lib/jvm/java-8-oracle"
+    >   export JAVA_HOME
+    > source /etc/environment
 
 ## Step 3
-wget <path to debian binary>
-Example -  
-> wget https://download.elastic.co/elasticsearch/release/org/elasticsearch/distribution/deb/elasticsearch/2.4.1/elasticsearch-2.4.1.deb.sha1
-> sudo dpkg -i elasticsearch-2.4.1.deb
+wget download_link_to_debian_package
+Example 
+
+    > wget https://download.elastic.co/elasticsearch/release/org/elasticsearch/distribution/deb/elasticsearch/2.4.1/elasticsearch-2.4.1.deb.sha1
+    > sudo dpkg -i elasticsearch-2.4.1.deb
 
 ## Step 4
+**This is not required for single machine cluster**
 Configurations file => /etc/elasticsearch/elasticsearch.yml
 Need to set these configurations differently on different machines according to what's needed {master nodes, data nodes, ingestion nodes}
 > cluster.name: es.cluster
@@ -55,11 +59,14 @@ Need to set these configurations differently on different machines according to 
 
 ## Step 5 Start/Stop Service
 >  sudo /bin/systemctl daemon-reload
->  sudo /bin/systemctl enable elasticsearch.service
->  sudo systemctl start elasticsearch.service
+>  sudo /bin/systemctl enable elasticsearch.service 
+>  sudo systemctl start elasticsearch.service || OR sudo service elasticsearch start
 
 ## Check Health
 http://master_ip:port/_cluster/stats?human&pretty
+
+
+
 
 
 

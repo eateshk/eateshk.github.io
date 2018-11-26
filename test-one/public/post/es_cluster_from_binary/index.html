@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="generator" content="Hugo 0.51" />
+
+  <title>Elastic Search Cluster Setup from Binary &middot; Life Universe and Everything</title>
+
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/pure-min.css">
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-min.css">
+  <!--<![endif]-->
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://eateshk.github.io/css/side-menu-old-ie.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://eateshk.github.io/css/side-menu.css">
+  <!--<![endif]-->
+
+  <link rel="stylesheet" href="https://eateshk.github.io/css/blackburn.css">
+
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+ 
+  
+
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/androidstudio.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  
+  <script>hljs.initHighlightingOnLoad();</script>
+  
+
+  <link rel="shortcut icon" href="https://eateshk.github.io/img/favicon.ico" type="image/x-icon" />
+
+  
+  
+
+</head>
+
+
+<body>
+<div id="layout">
+
+  
+<a href="#menu" id="menuLink" class="menu-link">
+  
+  <span></span>
+</a>
+<div id="menu">
+
+  
+  <a class="pure-menu-heading brand" href="https://eateshk.github.io/">EK</a>
+
+
+  <div class="pure-menu">
+    <ul class="pure-menu-list">
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://eateshk.github.io/"><i class='fa fa-home fa-fw'></i>Home</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://eateshk.github.io/post/"><i class='fa fa-list fa-fw'></i>Posts</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://eateshk.github.io/topics/"><i class='fa fa-list fa-fw'></i>Topics</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://eateshk.github.io/about/"><i class='fa fa-user fa-fw'></i>About</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://eateshk.github.io/contact/"><i class='fa fa-phone fa-fw'></i>Contact</a>
+      
+        </li>
+      
+    </ul>
+  </div>
+
+  <div class="pure-menu social">
+  <ul class="pure-menu-list">
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://twitter.com/kandpaleatesh" target="_blank"><i class="fa fa-twitter-square fa-fw"></i>Twitter</a>
+    </li>
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://facebook.com/kandpaleatesh" target="_blank"><i class="fa fa-facebook-square fa-fw"></i>Facebook</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://instagram.com/*" target="_blank"><i class="fa fa-instagram fa-fw"></i>Instagram</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://linkedin.com/in/eatesh-kandpal-19238128" target="_blank"><i class="fa fa-linkedin-square fa-fw"></i>LinkedIn</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://github.com/eateshk" target="_blank"><i class="fa fa-github-square fa-fw"></i>GitHub</a>
+    </li>
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://stackoverflow.com/users/*" target="_blank"><i class="fa fa-stack-overflow fa-fw"></i>Stack Overflow</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+  </ul>
+</div>
+
+
+  <div>
+  <div class="small-print">
+    <small>&copy; 2018. All rights reserved.</small>
+  </div>
+  <div class="small-print">
+    <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
+    <small>Theme&nbsp;<a href="https://github.com/yoshiharuyamashita/blackburn" target="_blank">Blackburn</a></small>
+  </div>
+</div>
+
+</div>
+
+
+  <div id="main">
+
+
+<div class="header">
+  <h1>Elastic Search Cluster Setup from Binary</h1>
+  <h2></h2>
+</div>
+<div class="content">
+
+  <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>26 Nov 2018, 00:00</time>
+  </div>
+
+  
+
+  
+
+  
+
+</div>
+
+  
+
+<h1 id="preparation">Preparation</h1>
+
+<h2 id="step-1">Step 1</h2>
+
+<p>Get an ubuntu box - you can find  <a href="https://www.elastic.co/support/matrix">version compatibility</a></p>
+
+<h3 id="on-azure">On Azure</h3>
+
+<pre><code>Using ubuntu 16.04 LTS
+1) Create a machine with public ip(master node)
+2) Create other machines (data/ingest nodes w/o public IP)
+</code></pre>
+
+<h2 id="step-2">Step 2</h2>
+
+<p>Install Oracle Java. Compatibility matrix in same link as above.
+&gt; sudo apt-get update &amp;&amp; sudo apt-get upgrade
+&gt; sudo apt-get install software-properties-common
+&gt; sudo add-apt-repository ppa:linuxuprising/java
+&gt; sudo apt-get update
+&gt; sudo add-apt-repository ppa:webupd8team/java
+&gt; sudo apt-get update
+&gt; sudo apt-get install oracle-java8-installer</p>
+
+<p>Set JAVA_HOME
+&gt; vim /etc/environment
+&gt;   Add below content
+&gt;   &gt; JAVA_HOME=&ldquo;/usr/lib/jvm/java-8-oracle&rdquo;
+&gt;   &gt; export JAVA_HOME
+&gt; source /etc/environment</p>
+
+<h2 id="step-3">Step 3</h2>
+
+<p>wget <path to debian binary>
+Example -<br />
+&gt; wget <a href="https://download.elastic.co/elasticsearch/release/org/elasticsearch/distribution/deb/elasticsearch/2.4.1/elasticsearch-2.4.1.deb.sha1">https://download.elastic.co/elasticsearch/release/org/elasticsearch/distribution/deb/elasticsearch/2.4.1/elasticsearch-2.4.1.deb.sha1</a>
+&gt; sudo dpkg -i elasticsearch-2.4.1.deb</p>
+
+<h2 id="step-4">Step 4</h2>
+
+<p><strong>This is not required for single machine cluster</strong>
+Configurations file =&gt; /etc/elasticsearch/elasticsearch.yml
+Need to set these configurations differently on different machines according to what&rsquo;s needed {master nodes, data nodes, ingestion nodes}
+&gt; cluster.name: es.cluster
+&gt; // keep cluster name same for everything in the cluster
+&gt; node.name: node-1
+&gt; // keep node names different but recognizable
+&gt; node.data: true
+&gt; node.master: false
+&gt; network.host: [10.0.0.7, <em>local</em>]
+&gt; // this should contain node itself <em>local</em> is for loopback, IP is ip address in the cluster vpn.
+&gt; discovery.zen.ping.unicast.hosts: [&ldquo;10.0.0.7&rdquo;, &ldquo;10.0.0.6&rdquo;]
+&gt;  // this should contain the links to all the nodes (It may contain less then all too though. Should include itself ?)</p>
+
+<h2 id="step-5-start-stop-service">Step 5 Start/Stop Service</h2>
+
+<blockquote>
+<p>sudo /bin/systemctl daemon-reload
+ sudo /bin/systemctl enable elasticsearch.service
+ sudo systemctl start elasticsearch.service || OR sudo service elasticsearch start</p>
+</blockquote>
+
+<h2 id="check-health">Check Health</h2>
+
+<p><a href="http://master_ip:port/_cluster/stats?human&amp;pretty">http://master_ip:port/_cluster/stats?human&amp;pretty</a></p>
+
+
+  
+<div class="prev-next-post pure-g">
+  <div class="pure-u-1-24" style="text-align: left;">
+    
+    <a href="https://eateshk.github.io/post/scala_setup/"><i class="fa fa-chevron-left"></i></a>
+    
+  </div>
+  <div class="pure-u-10-24">
+    
+    <nav class="prev">
+      <a href="https://eateshk.github.io/post/scala_setup/">Scala Setup</a>
+    </nav>
+    
+  </div>
+  <div class="pure-u-2-24">
+    &nbsp;
+  </div>
+  <div class="pure-u-10-24">
+    
+    <nav class="next">
+      <a href="https://eateshk.github.io/post/migrate-from-jekyll/">Migrate to Hugo from Jekyll</a>
+    </nav>
+    
+  </div>
+  <div class="pure-u-1-24" style="text-align: right;">
+    
+    <a href="https://eateshk.github.io/post/migrate-from-jekyll/"><i class="fa fa-chevron-right"></i></a>
+    
+  </div>
+</div>
+
+
+
+  
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+
+(function() {
+    
+    
+    if (window.location.hostname == "localhost")
+        return;
+
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    var disqus_shortname = 'Your Disqus shortname';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+</div>
+
+</div>
+</div>
+<script src="https://eateshk.github.io/js/ui.js"></script>
+<script src="https://eateshk.github.io/js/menus.js"></script>
+
+
+<script>
+  
+  if (window.location.hostname != "localhost") {
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'Your Google Analytics tracking ID', 'auto');
+    ga('send', 'pageview');
+  }
+</script>
+
+
+
+
+
+</body>
+</html>
+
