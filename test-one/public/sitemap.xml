@@ -3,150 +3,150 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://eateshk.github.io/post/es_cluster_from_binary/</loc>
+    <loc>https://iblogger.z30.web.core.windows.net/post/es_cluster_from_binary/</loc>
     <lastmod>2018-11-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://eateshk.github.io/about/</loc>
+    <loc>https://iblogger.z30.web.core.windows.net/about/</loc>
     <lastmod>2018-11-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://eateshk.github.io/post/scala_setup/</loc>
+    <loc>https://iblogger.z30.web.core.windows.net/post/scala_setup/</loc>
     <lastmod>2018-11-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://eateshk.github.io/contact/</loc>
+    <loc>https://iblogger.z30.web.core.windows.net/contact/</loc>
     <lastmod>2014-04-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://eateshk.github.io/contact_form/</loc>
+    <loc>https://iblogger.z30.web.core.windows.net/contact_form/</loc>
     <lastmod>2014-04-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://eateshk.github.io/post/goisforlovers/</loc>
+    <loc>https://iblogger.z30.web.core.windows.net/post/goisforlovers/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://eateshk.github.io/categories/</loc>
+    <loc>https://iblogger.z30.web.core.windows.net/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://eateshk.github.io/tags/development/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://eateshk.github.io/categories/development/</loc>
+    <loc>https://iblogger.z30.web.core.windows.net/tags/development/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://eateshk.github.io/tags/elastic/</loc>
-    <lastmod>2018-11-26T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://eateshk.github.io/topics/elasticsearch/</loc>
-    <lastmod>2018-11-26T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://eateshk.github.io/tags/elasticsearch/</loc>
-    <lastmod>2018-11-26T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://eateshk.github.io/tags/es/</loc>
-    <lastmod>2018-11-26T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://eateshk.github.io/tags/go/</loc>
+    <loc>https://iblogger.z30.web.core.windows.net/categories/development/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://eateshk.github.io/tags/golang/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://eateshk.github.io/categories/golang/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://eateshk.github.io/</loc>
+    <loc>https://iblogger.z30.web.core.windows.net/tags/elastic/</loc>
     <lastmod>2018-11-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://eateshk.github.io/post/</loc>
+    <loc>https://iblogger.z30.web.core.windows.net/tags/elasticsearch/</loc>
     <lastmod>2018-11-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://eateshk.github.io/topics/scala/</loc>
+    <loc>https://iblogger.z30.web.core.windows.net/topics/elasticsearch/</loc>
+    <lastmod>2018-11-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://iblogger.z30.web.core.windows.net/tags/es/</loc>
+    <lastmod>2018-11-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://iblogger.z30.web.core.windows.net/tags/go/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://iblogger.z30.web.core.windows.net/tags/golang/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://iblogger.z30.web.core.windows.net/categories/golang/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://iblogger.z30.web.core.windows.net/</loc>
+    <lastmod>2018-11-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://iblogger.z30.web.core.windows.net/post/</loc>
+    <lastmod>2018-11-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://iblogger.z30.web.core.windows.net/tags/scala/</loc>
     <lastmod>2018-11-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://eateshk.github.io/tags/scala/</loc>
+    <loc>https://iblogger.z30.web.core.windows.net/topics/scala/</loc>
     <lastmod>2018-11-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://eateshk.github.io/tags/scala-setup/</loc>
+    <loc>https://iblogger.z30.web.core.windows.net/tags/scala-setup/</loc>
     <lastmod>2018-11-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://eateshk.github.io/topics/software-setup/</loc>
+    <loc>https://iblogger.z30.web.core.windows.net/topics/software-setup/</loc>
     <lastmod>2018-11-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://eateshk.github.io/tags/</loc>
+    <loc>https://iblogger.z30.web.core.windows.net/tags/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://eateshk.github.io/tags/templates/</loc>
+    <loc>https://iblogger.z30.web.core.windows.net/tags/templates/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://eateshk.github.io/tags/themes/</loc>
+    <loc>https://iblogger.z30.web.core.windows.net/tags/themes/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://eateshk.github.io/topics/</loc>
+    <loc>https://iblogger.z30.web.core.windows.net/topics/</loc>
     <lastmod>2018-11-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
