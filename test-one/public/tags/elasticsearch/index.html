@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="generator" content="Hugo 0.51" />
 
-  <title>Hugo &middot; Life Universe and Everything</title>
+  <title>Elasticsearch &middot; Life Universe and Everything</title>
 
   
   
@@ -40,7 +40,7 @@
 
  
   
-  <link rel="alternate" type="application/rss+xml" title="Life Universe and Everything" href="https://eateshk.github.io/tags/hugo/index.xml" />
+  <link rel="alternate" type="application/rss+xml" title="Life Universe and Everything" href="https://eateshk.github.io/tags/elasticsearch/index.xml" />
   
 
   
@@ -69,7 +69,11 @@
 <div id="menu">
 
   
-  <a class="pure-menu-heading brand" href="https://eateshk.github.io/">EK</a>
+  
+<a class="pure-menu-heading brand" href="http://yoshiharuyamashita.com/">
+  <img src="https://avatars3.githubusercontent.com/u/4973665?s=400&u=936cb3ae779db6c4444bb1b125e8ebc290dd6c52&v=4" width="100px">
+</a>
+
 
 
   <div class="pure-menu">
@@ -113,7 +117,7 @@
 
     
     <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://eateshk.github.io/tags/hugo/index.xml"><i class="fa fa-rss fa-fw"></i>RSS</a>
+      <a class="pure-menu-link" href="https://eateshk.github.io/tags/elasticsearch/index.xml"><i class="fa fa-rss fa-fw"></i>RSS</a>
     </li>
     
 
@@ -234,24 +238,36 @@
 
 
 <div class="header">
-  <h1>Hugo</h1>
+  <h1>Elasticsearch</h1>
 </div>
 
 <div class="content">
   
     <article>
   <header>
-    <h2><a href="https://eateshk.github.io/post/hugoisforlovers/">Getting Started with Hugo</a></h2>
+    <h2><a href="https://eateshk.github.io/post/es_cluster_from_binary/">Elastic Search Cluster Setup</a></h2>
 
     <div class="post-meta">
 
   <div>
     <i class="fa fa-calendar fa-fw"></i>
-    <time>02 Apr 2014, 00:00</time>
+    <time>26 Nov 2018, 00:00</time>
   </div>
 
   
 
+  
+  
+  
+  <div>
+    <i class="fa fa-folder fa-fw"></i>
+    
+      <a class="post-taxonomy-topic" href="https://eateshk.github.io/topics/elasticsearch">elasticsearch</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-topic" href="https://eateshk.github.io/topics/software-setup">Software Setup</a>
+    
+  </div>
+  
   
 
   
@@ -260,13 +276,11 @@
   <div>
     <i class="fa fa-tags fa-fw"></i>
     
-      <a class="post-taxonomy-tag" href="https://eateshk.github.io/tags/go">go</a>&nbsp;&#47;
+      <a class="post-taxonomy-tag" href="https://eateshk.github.io/tags/elasticsearch">elasticsearch</a>&nbsp;&#47;
     
-      <a class="post-taxonomy-tag" href="https://eateshk.github.io/tags/golang">golang</a>&nbsp;&#47;
+      <a class="post-taxonomy-tag" href="https://eateshk.github.io/tags/es">es</a>&nbsp;&#47;
     
-      <a class="post-taxonomy-tag" href="https://eateshk.github.io/tags/hugo">hugo</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="https://eateshk.github.io/tags/development">development</a>
+      <a class="post-taxonomy-tag" href="https://eateshk.github.io/tags/elastic">elastic</a>
     
   </div>
   
@@ -277,17 +291,14 @@
   </header>
 
   <p>
-  Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.
-Save it somewhere specific as we will be using it in the next step.
-More complete instructions are available at installing hugo
-Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
-Follow the following steps:
- Clone the hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313  Corresponding pseudo commands:
+  Preparation Step 1 Get an ubuntu box - you can find version compatibility
+On Azure Using ubuntu 16.04 LTS 1) Create a machine with public ip(master node) 2) Create other machines (data/ingest nodes w/o public IP)  Step 2 Install Oracle Java. Compatibility matrix in same link as above.
+&gt; sudo apt-get update &amp;&amp; sudo apt-get upgrade &gt; sudo apt-get install software-properties-common &gt; sudo add-apt-repository ppa:linuxuprising/java &gt; sudo apt-get update &gt; sudo add-apt-repository ppa:webupd8team/java &gt; sudo apt-get update &gt; sudo apt-get install oracle-java8-installer  Set JAVA_HOME
   </p>
 
   
   <footer>
-    <a href="https://eateshk.github.io/post/hugoisforlovers/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+    <a href="https://eateshk.github.io/post/es_cluster_from_binary/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
   </footer>
   
 </article>

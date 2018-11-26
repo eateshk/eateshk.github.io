@@ -4,10 +4,10 @@
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="">
+  <meta name="description" content="From Binary on an Ubuntu VM on Azure">
   <meta name="generator" content="Hugo 0.51" />
 
-  <title>Elastic Search Cluster Setup from Binary &middot; Life Universe and Everything</title>
+  <title>Elastic Search Cluster Setup &middot; Life Universe and Everything</title>
 
   
   
@@ -67,7 +67,11 @@
 <div id="menu">
 
   
-  <a class="pure-menu-heading brand" href="https://eateshk.github.io/">EK</a>
+  
+<a class="pure-menu-heading brand" href="http://yoshiharuyamashita.com/">
+  <img src="https://avatars3.githubusercontent.com/u/4973665?s=400&u=936cb3ae779db6c4444bb1b125e8ebc290dd6c52&v=4" width="100px">
+</a>
+
 
 
   <div class="pure-menu">
@@ -228,8 +232,8 @@
 
 
 <div class="header">
-  <h1>Elastic Search Cluster Setup from Binary</h1>
-  <h2></h2>
+  <h1>Elastic Search Cluster Setup</h1>
+  <h2>From Binary on an Ubuntu VM on Azure</h2>
 </div>
 <div class="content">
 
@@ -243,7 +247,33 @@
   
 
   
+  
+  
+  <div>
+    <i class="fa fa-folder fa-fw"></i>
+    
+      <a class="post-taxonomy-topic" href="https://eateshk.github.io/topics/elasticsearch">elasticsearch</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-topic" href="https://eateshk.github.io/topics/software-setup">Software Setup</a>
+    
+  </div>
+  
+  
 
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://eateshk.github.io/tags/elasticsearch">elasticsearch</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://eateshk.github.io/tags/es">es</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://eateshk.github.io/tags/elastic">elastic</a>
+    
+  </div>
+  
   
 
 </div>
@@ -265,28 +295,34 @@
 
 <h2 id="step-2">Step 2</h2>
 
-<p>Install Oracle Java. Compatibility matrix in same link as above.
-&gt; sudo apt-get update &amp;&amp; sudo apt-get upgrade
+<p>Install Oracle Java. Compatibility matrix in same link as above.</p>
+
+<pre><code>&gt; sudo apt-get update &amp;&amp; sudo apt-get upgrade
 &gt; sudo apt-get install software-properties-common
 &gt; sudo add-apt-repository ppa:linuxuprising/java
 &gt; sudo apt-get update
 &gt; sudo add-apt-repository ppa:webupd8team/java
 &gt; sudo apt-get update
-&gt; sudo apt-get install oracle-java8-installer</p>
+&gt; sudo apt-get install oracle-java8-installer
+</code></pre>
 
-<p>Set JAVA_HOME
-&gt; vim /etc/environment
+<p>Set JAVA_HOME</p>
+
+<pre><code>&gt; vim /etc/environment 
 &gt;   Add below content
-&gt;   &gt; JAVA_HOME=&ldquo;/usr/lib/jvm/java-8-oracle&rdquo;
-&gt;   &gt; export JAVA_HOME
-&gt; source /etc/environment</p>
+&gt;   JAVA_HOME=&quot;/usr/lib/jvm/java-8-oracle&quot;
+&gt;   export JAVA_HOME
+&gt; source /etc/environment
+</code></pre>
 
 <h2 id="step-3">Step 3</h2>
 
-<p>wget <path to debian binary>
-Example -<br />
-&gt; wget <a href="https://download.elastic.co/elasticsearch/release/org/elasticsearch/distribution/deb/elasticsearch/2.4.1/elasticsearch-2.4.1.deb.sha1">https://download.elastic.co/elasticsearch/release/org/elasticsearch/distribution/deb/elasticsearch/2.4.1/elasticsearch-2.4.1.deb.sha1</a>
-&gt; sudo dpkg -i elasticsearch-2.4.1.deb</p>
+<p>wget download_link_to_debian_package
+Example</p>
+
+<pre><code>&gt; wget https://download.elastic.co/elasticsearch/release/org/elasticsearch/distribution/deb/elasticsearch/2.4.1/elasticsearch-2.4.1.deb.sha1
+&gt; sudo dpkg -i elasticsearch-2.4.1.deb
+</code></pre>
 
 <h2 id="step-4">Step 4</h2>
 
@@ -314,7 +350,10 @@ Need to set these configurations differently on different machines according to 
 
 <h2 id="check-health">Check Health</h2>
 
-<p><a href="http://master_ip:port/_cluster/stats?human&amp;pretty">http://master_ip:port/_cluster/stats?human&amp;pretty</a></p>
+<p>There are many APIs with which you can check health and configuration of your cluster. I prefer the dialect below</p>
+
+<pre><code>http://master_ip:port/_cluster/stats?human&amp;pretty
+</code></pre>
 
 
   
@@ -336,14 +375,8 @@ Need to set these configurations differently on different machines according to 
   </div>
   <div class="pure-u-10-24">
     
-    <nav class="next">
-      <a href="https://eateshk.github.io/post/migrate-from-jekyll/">Migrate to Hugo from Jekyll</a>
-    </nav>
-    
   </div>
   <div class="pure-u-1-24" style="text-align: right;">
-    
-    <a href="https://eateshk.github.io/post/migrate-from-jekyll/"><i class="fa fa-chevron-right"></i></a>
     
   </div>
 </div>
