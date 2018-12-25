@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Life Universe and Everything</title>
-    <link>https://iblogger.z30.web.core.windows.net/</link>
+    <link>https://eateshk.github.io/</link>
     <description>Recent content on Life Universe and Everything</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018. All rights reserved.</copyright>
     <lastBuildDate>Mon, 26 Nov 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://iblogger.z30.web.core.windows.net/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://eateshk.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Elastic Search Cluster Setup</title>
-      <link>https://iblogger.z30.web.core.windows.net/post/es_cluster_from_binary/</link>
+      <link>https://eateshk.github.io/post/es_cluster_from_binary/</link>
       <pubDate>Mon, 26 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://iblogger.z30.web.core.windows.net/post/es_cluster_from_binary/</guid>
+      <guid>https://eateshk.github.io/post/es_cluster_from_binary/</guid>
       <description>Preparation Step 1 Get an ubuntu box - you can find version compatibility
 On Azure Using ubuntu 16.04 LTS 1) Create a machine with public ip(master node) 2) Create other machines (data/ingest nodes w/o public IP)  Step 2 Install Oracle Java. Compatibility matrix in same link as above.
 &amp;gt; sudo apt-get update &amp;amp;&amp;amp; sudo apt-get upgrade &amp;gt; sudo apt-get install software-properties-common &amp;gt; sudo add-apt-repository ppa:linuxuprising/java &amp;gt; sudo apt-get update &amp;gt; sudo add-apt-repository ppa:webupd8team/java &amp;gt; sudo apt-get update &amp;gt; sudo apt-get install oracle-java8-installer  Set JAVA_HOME</description>
@@ -25,49 +25,49 @@ On Azure Using ubuntu 16.04 LTS 1) Create a machine with public ip(master node) 
     
     <item>
       <title>About Me</title>
-      <link>https://iblogger.z30.web.core.windows.net/about/</link>
+      <link>https://eateshk.github.io/about/</link>
       <pubDate>Fri, 23 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://iblogger.z30.web.core.windows.net/about/</guid>
+      <guid>https://eateshk.github.io/about/</guid>
       <description>I&amp;rsquo;m a generalist software developer who loves programming / design &amp;amp; analysis of algorithms. My work has mostly been around writing services. I&amp;rsquo;m currently working for Microsoft IDC, Bengaluru. I&amp;rsquo;m generally interested in sports, programming and wasting time thinking about random stuff but what I end up doing mostly is procrastination(you&amp;rsquo;ll see soon) for some reason :)
 I both started and stopped blogging in college - couldn&amp;rsquo;t maintain it (you see it now).</description>
     </item>
     
     <item>
       <title>Scala Setup</title>
-      <link>https://iblogger.z30.web.core.windows.net/post/scala_setup/</link>
+      <link>https://eateshk.github.io/post/scala_setup/</link>
       <pubDate>Fri, 23 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://iblogger.z30.web.core.windows.net/post/scala_setup/</guid>
+      <guid>https://eateshk.github.io/post/scala_setup/</guid>
       <description>Preparation Step 1 - Java Installation Since scala runs on JVM we need java, it&amp;rsquo;s a good idea to install whole of jdk with it. Issuing command below will bring both JRE and Java to your machine.
 sudo apt-get install openjdk-8-jdk  Step 2 - Download Scala You can get scala from Scala website - Go here. Scroll down the page and get a debian package, with extension as .</description>
     </item>
     
     <item>
       <title>Contact</title>
-      <link>https://iblogger.z30.web.core.windows.net/contact/</link>
+      <link>https://eateshk.github.io/contact/</link>
       <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://iblogger.z30.web.core.windows.net/contact/</guid>
+      <guid>https://eateshk.github.io/contact/</guid>
       <description>Shoot an email to (concat &amp;ldquo;kandpaleatesh&amp;rdquo; &amp;ldquo;@&amp;rdquo; &amp;ldquo;gmail&amp;rdquo; &amp;ldquo;.&amp;rdquo; &amp;ldquo;com&amp;rdquo;). I try to reply as soon as possible !</description>
     </item>
     
     <item>
       <title>Contact</title>
-      <link>https://iblogger.z30.web.core.windows.net/contact_form/</link>
+      <link>https://eateshk.github.io/contact_form/</link>
       <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://iblogger.z30.web.core.windows.net/contact_form/</guid>
+      <guid>https://eateshk.github.io/contact_form/</guid>
       <description>Enable later when API is ready !  First Name 
  &amp;lt;div class=&amp;quot;pure-u-1 pure-u-md-1-3&amp;quot;&amp;gt; &amp;lt;label for=&amp;quot;last-name&amp;quot;&amp;gt;Last Name&amp;lt;/label&amp;gt; &amp;lt;input id=&amp;quot;last-name&amp;quot; class=&amp;quot;pure-u-23-24&amp;quot; type=&amp;quot;text&amp;quot;&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;quot;pure-u-1 pure-u-md-1-3&amp;quot;&amp;gt; &amp;lt;label for=&amp;quot;email&amp;quot;&amp;gt;E-Mail&amp;lt;/label&amp;gt; &amp;lt;input id=&amp;quot;email&amp;quot; class=&amp;quot;pure-u-23-24&amp;quot; type=&amp;quot;email&amp;quot; required&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;quot;pure-u-1 pure-u-md-1-3&amp;quot;&amp;gt; &amp;lt;label for=&amp;quot;city&amp;quot;&amp;gt;City&amp;lt;/label&amp;gt; &amp;lt;input id=&amp;quot;city&amp;quot; class=&amp;quot;pure-u-23-24&amp;quot; type=&amp;quot;text&amp;quot;&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;quot;pure-u-1 pure-u-md-1-3&amp;quot;&amp;gt; &amp;lt;label for=&amp;quot;state&amp;quot;&amp;gt;State&amp;lt;/label&amp;gt; &amp;lt;select id=&amp;quot;state&amp;quot; class=&amp;quot;pure-input-1-2&amp;quot;&amp;gt; &amp;lt;option&amp;gt;AL&amp;lt;/option&amp;gt; &amp;lt;option&amp;gt;CA&amp;lt;/option&amp;gt; &amp;lt;option&amp;gt;IL&amp;lt;/option&amp;gt; &amp;lt;/select&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;fieldset class=&amp;quot;pure-group&amp;quot;&amp;gt; &amp;lt;input type=&amp;quot;text&amp;quot; class=&amp;quot;pure-input-1-2&amp;quot; placeholder=&amp;quot;A title&amp;quot;&amp;gt; &amp;lt;textarea class=&amp;quot;pure-input-1-2&amp;quot; placeholder=&amp;quot;Your message&amp;quot;&amp;gt;&amp;lt;/textarea&amp;gt; &amp;lt;/fieldset&amp;gt; &amp;lt;button type=&amp;quot;submit&amp;quot; class=&amp;quot;pure-button pure-button-primary&amp;quot;&amp;gt;Send&amp;lt;/button&amp;gt;</description>
     </item>
     
     <item>
       <title>(Hu)go Template Primer</title>
-      <link>https://iblogger.z30.web.core.windows.net/post/goisforlovers/</link>
+      <link>https://eateshk.github.io/post/goisforlovers/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://iblogger.z30.web.core.windows.net/post/goisforlovers/</guid>
+      <guid>https://eateshk.github.io/post/goisforlovers/</guid>
       <description>Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
 This document is a brief primer on using go templates.</description>
     </item>

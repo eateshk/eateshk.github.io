@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Elasticsearch on Life Universe and Everything</title>
-    <link>https://iblogger.z30.web.core.windows.net/topics/elasticsearch/</link>
+    <link>https://eateshk.github.io/topics/elasticsearch/</link>
     <description>Recent content in Elasticsearch on Life Universe and Everything</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018. All rights reserved.</copyright>
     <lastBuildDate>Mon, 26 Nov 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://iblogger.z30.web.core.windows.net/topics/elasticsearch/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://eateshk.github.io/topics/elasticsearch/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Elastic Search Cluster Setup</title>
-      <link>https://iblogger.z30.web.core.windows.net/post/es_cluster_from_binary/</link>
+      <link>https://eateshk.github.io/post/es_cluster_from_binary/</link>
       <pubDate>Mon, 26 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://iblogger.z30.web.core.windows.net/post/es_cluster_from_binary/</guid>
+      <guid>https://eateshk.github.io/post/es_cluster_from_binary/</guid>
       <description>Preparation Step 1 Get an ubuntu box - you can find version compatibility
 On Azure Using ubuntu 16.04 LTS 1) Create a machine with public ip(master node) 2) Create other machines (data/ingest nodes w/o public IP)  Step 2 Install Oracle Java. Compatibility matrix in same link as above.
 &amp;gt; sudo apt-get update &amp;amp;&amp;amp; sudo apt-get upgrade &amp;gt; sudo apt-get install software-properties-common &amp;gt; sudo add-apt-repository ppa:linuxuprising/java &amp;gt; sudo apt-get update &amp;gt; sudo add-apt-repository ppa:webupd8team/java &amp;gt; sudo apt-get update &amp;gt; sudo apt-get install oracle-java8-installer  Set JAVA_HOME</description>

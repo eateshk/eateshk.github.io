@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Scala on Life Universe and Everything</title>
-    <link>https://iblogger.z30.web.core.windows.net/topics/scala/</link>
+    <link>https://eateshk.github.io/topics/scala/</link>
     <description>Recent content in Scala on Life Universe and Everything</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018. All rights reserved.</copyright>
     <lastBuildDate>Fri, 23 Nov 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://iblogger.z30.web.core.windows.net/topics/scala/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://eateshk.github.io/topics/scala/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Scala Setup</title>
-      <link>https://iblogger.z30.web.core.windows.net/post/scala_setup/</link>
+      <link>https://eateshk.github.io/post/scala_setup/</link>
       <pubDate>Fri, 23 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://iblogger.z30.web.core.windows.net/post/scala_setup/</guid>
+      <guid>https://eateshk.github.io/post/scala_setup/</guid>
       <description>Preparation Step 1 - Java Installation Since scala runs on JVM we need java, it&amp;rsquo;s a good idea to install whole of jdk with it. Issuing command below will bring both JRE and Java to your machine.
 sudo apt-get install openjdk-8-jdk  Step 2 - Download Scala You can get scala from Scala website - Go here. Scroll down the page and get a debian package, with extension as .</description>
     </item>
