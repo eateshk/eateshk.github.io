@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://iblogger.z30.web.core.windows.net/post/es_cluster_from_binary/</loc>
+    <lastmod>2018-11-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iblogger.z30.web.core.windows.net/about/</loc>
+    <lastmod>2018-11-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iblogger.z30.web.core.windows.net/post/scala_setup/</loc>
+    <lastmod>2018-11-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iblogger.z30.web.core.windows.net/contact/</loc>
+    <lastmod>2014-04-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iblogger.z30.web.core.windows.net/contact_form/</loc>
+    <lastmod>2014-04-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iblogger.z30.web.core.windows.net/post/goisforlovers/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iblogger.z30.web.core.windows.net/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://iblogger.z30.web.core.windows.net/tags/development/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://iblogger.z30.web.core.windows.net/categories/development/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://iblogger.z30.web.core.windows.net/tags/elastic/</loc>
+    <lastmod>2018-11-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://iblogger.z30.web.core.windows.net/tags/elasticsearch/</loc>
+    <lastmod>2018-11-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://iblogger.z30.web.core.windows.net/topics/elasticsearch/</loc>
+    <lastmod>2018-11-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://iblogger.z30.web.core.windows.net/tags/es/</loc>
+    <lastmod>2018-11-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://iblogger.z30.web.core.windows.net/tags/go/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://iblogger.z30.web.core.windows.net/tags/golang/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://iblogger.z30.web.core.windows.net/categories/golang/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://iblogger.z30.web.core.windows.net/</loc>
+    <lastmod>2018-11-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://iblogger.z30.web.core.windows.net/post/</loc>
+    <lastmod>2018-11-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://iblogger.z30.web.core.windows.net/tags/scala/</loc>
+    <lastmod>2018-11-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://iblogger.z30.web.core.windows.net/topics/scala/</loc>
+    <lastmod>2018-11-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://iblogger.z30.web.core.windows.net/tags/scala-setup/</loc>
+    <lastmod>2018-11-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://iblogger.z30.web.core.windows.net/topics/software-setup/</loc>
+    <lastmod>2018-11-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://iblogger.z30.web.core.windows.net/tags/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://iblogger.z30.web.core.windows.net/tags/templates/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://iblogger.z30.web.core.windows.net/tags/themes/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://iblogger.z30.web.core.windows.net/topics/</loc>
+    <lastmod>2018-11-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
