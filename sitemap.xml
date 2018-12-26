@@ -28,35 +28,12 @@
   </url>
   
   <url>
-    <loc>https://eateshk.github.io/post/goisforlovers/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://eateshk.github.io/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://eateshk.github.io/categories/development/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://eateshk.github.io/tags/development/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://eateshk.github.io/tags/elastic/</loc>
-    <lastmod>2018-11-26T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://eateshk.github.io/topics/elasticsearch/</loc>
     <lastmod>2018-11-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -68,26 +45,14 @@
   </url>
   
   <url>
-    <loc>https://eateshk.github.io/tags/es/</loc>
+    <loc>https://eateshk.github.io/topics/elasticsearch/</loc>
     <lastmod>2018-11-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://eateshk.github.io/tags/go/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://eateshk.github.io/categories/golang/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://eateshk.github.io/tags/golang/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <loc>https://eateshk.github.io/tags/es/</loc>
+    <lastmod>2018-11-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -104,13 +69,13 @@
   </url>
   
   <url>
-    <loc>https://eateshk.github.io/topics/scala/</loc>
+    <loc>https://eateshk.github.io/tags/scala/</loc>
     <lastmod>2018-11-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://eateshk.github.io/tags/scala/</loc>
+    <loc>https://eateshk.github.io/topics/scala/</loc>
     <lastmod>2018-11-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -129,19 +94,7 @@
   
   <url>
     <loc>https://eateshk.github.io/tags/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://eateshk.github.io/tags/templates/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://eateshk.github.io/tags/themes/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <lastmod>2018-11-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

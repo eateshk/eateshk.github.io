@@ -7,19 +7,10 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018. All rights reserved.</copyright>
-    <lastBuildDate>Wed, 02 Apr 2014 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Nov 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://eateshk.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Development</title>
-      <link>https://eateshk.github.io/tags/development/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://eateshk.github.io/tags/development/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>Elastic</title>
@@ -49,24 +40,6 @@
     </item>
     
     <item>
-      <title>Go</title>
-      <link>https://eateshk.github.io/tags/go/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://eateshk.github.io/tags/go/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Golang</title>
-      <link>https://eateshk.github.io/tags/golang/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://eateshk.github.io/tags/golang/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Scala</title>
       <link>https://eateshk.github.io/tags/scala/</link>
       <pubDate>Fri, 23 Nov 2018 00:00:00 +0000</pubDate>
@@ -81,24 +54,6 @@
       <pubDate>Fri, 23 Nov 2018 00:00:00 +0000</pubDate>
       
       <guid>https://eateshk.github.io/tags/scala-setup/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Templates</title>
-      <link>https://eateshk.github.io/tags/templates/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://eateshk.github.io/tags/templates/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Themes</title>
-      <link>https://eateshk.github.io/tags/themes/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://eateshk.github.io/tags/themes/</guid>
       <description></description>
     </item>
     
