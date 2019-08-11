@@ -13,7 +13,16 @@
     
     
     <item>
-      <title>Elasticsearch</title>
+      <title>Software Setup</title>
+      <link>https://eateshk.github.io/topics/software-setup/</link>
+      <pubDate>Mon, 26 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://eateshk.github.io/topics/software-setup/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>elasticsearch</title>
       <link>https://eateshk.github.io/topics/elasticsearch/</link>
       <pubDate>Mon, 26 Nov 2018 00:00:00 +0000</pubDate>
       
@@ -27,15 +36,6 @@
       <pubDate>Fri, 23 Nov 2018 00:00:00 +0000</pubDate>
       
       <guid>https://eateshk.github.io/topics/scala/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Software Setup</title>
-      <link>https://eateshk.github.io/topics/software-setup/</link>
-      <pubDate>Mon, 26 Nov 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://eateshk.github.io/topics/software-setup/</guid>
       <description></description>
     </item>
     

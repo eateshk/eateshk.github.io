@@ -13,7 +13,7 @@
     
     
     <item>
-      <title>Elastic</title>
+      <title>elastic</title>
       <link>https://eateshk.github.io/tags/elastic/</link>
       <pubDate>Mon, 26 Nov 2018 00:00:00 +0000</pubDate>
       
@@ -22,7 +22,7 @@
     </item>
     
     <item>
-      <title>Elasticsearch</title>
+      <title>elasticsearch</title>
       <link>https://eateshk.github.io/tags/elasticsearch/</link>
       <pubDate>Mon, 26 Nov 2018 00:00:00 +0000</pubDate>
       
@@ -31,7 +31,7 @@
     </item>
     
     <item>
-      <title>Es</title>
+      <title>es</title>
       <link>https://eateshk.github.io/tags/es/</link>
       <pubDate>Mon, 26 Nov 2018 00:00:00 +0000</pubDate>
       
@@ -40,7 +40,7 @@
     </item>
     
     <item>
-      <title>Scala</title>
+      <title>scala</title>
       <link>https://eateshk.github.io/tags/scala/</link>
       <pubDate>Fri, 23 Nov 2018 00:00:00 +0000</pubDate>
       
@@ -49,11 +49,56 @@
     </item>
     
     <item>
-      <title>Scala Setup</title>
+      <title>scala setup</title>
       <link>https://eateshk.github.io/tags/scala-setup/</link>
       <pubDate>Fri, 23 Nov 2018 00:00:00 +0000</pubDate>
       
       <guid>https://eateshk.github.io/tags/scala-setup/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>development</title>
+      <link>https://eateshk.github.io/tags/development/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://eateshk.github.io/tags/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>go</title>
+      <link>https://eateshk.github.io/tags/go/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://eateshk.github.io/tags/go/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>golang</title>
+      <link>https://eateshk.github.io/tags/golang/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://eateshk.github.io/tags/golang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>templates</title>
+      <link>https://eateshk.github.io/tags/templates/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://eateshk.github.io/tags/templates/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>themes</title>
+      <link>https://eateshk.github.io/tags/themes/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://eateshk.github.io/tags/themes/</guid>
       <description></description>
     </item>
     

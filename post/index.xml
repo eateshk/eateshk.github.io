@@ -33,5 +33,15 @@ On Azure Using ubuntu 16.04 LTS 1) Create a machine with public ip(master node) 
 sudo apt-get install openjdk-8-jdk  Step 2 - Download Scala You can get scala from Scala website - Go here. Scroll down the page and get a debian package, with extension as .</description>
     </item>
     
+    <item>
+      <title>(Hu)go Template Primer</title>
+      <link>https://eateshk.github.io/post/goisforlovers/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://eateshk.github.io/post/goisforlovers/</guid>
+      <description>Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
+This document is a brief primer on using go templates.</description>
+    </item>
+    
   </channel>
 </rss>
