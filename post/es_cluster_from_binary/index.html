@@ -5,7 +5,7 @@
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="From Binary on an Ubuntu VM on Azure">
-  <meta name="generator" content="Hugo 0.56.3" />
+  <meta name="generator" content="Hugo 0.67.0" />
 
   <title>Elastic Search Cluster Setup &middot; Life Universe and Everything</title>
 
@@ -278,25 +278,16 @@
 
 </div>
 
-  
-
-<h1 id="preparation">Preparation</h1>
-
+  <h1 id="preparation">Preparation</h1>
 <h2 id="step-1">Step 1</h2>
-
 <p>Get an ubuntu box - you can find  <a href="https://www.elastic.co/support/matrix">version compatibility</a></p>
-
 <h3 id="on-azure">On Azure</h3>
-
 <pre><code>Using ubuntu 16.04 LTS
 1) Create a machine with public ip(master node)
 2) Create other machines (data/ingest nodes w/o public IP)
 </code></pre>
-
 <h2 id="step-2">Step 2</h2>
-
 <p>Install Oracle Java. Compatibility matrix in same link as above.</p>
-
 <pre><code>&gt; sudo apt-get update &amp;&amp; sudo apt-get upgrade
 &gt; sudo apt-get install software-properties-common
 &gt; sudo add-apt-repository ppa:linuxuprising/java
@@ -305,53 +296,43 @@
 &gt; sudo apt-get update
 &gt; sudo apt-get install oracle-java8-installer
 </code></pre>
-
 <p>Set JAVA_HOME</p>
-
 <pre><code>&gt; vim /etc/environment 
 &gt;   Add below content
 &gt;   JAVA_HOME=&quot;/usr/lib/jvm/java-8-oracle&quot;
 &gt;   export JAVA_HOME
 &gt; source /etc/environment
 </code></pre>
-
 <h2 id="step-3">Step 3</h2>
-
 <p>wget download_link_to_debian_package
 Example</p>
-
 <pre><code>&gt; wget https://download.elastic.co/elasticsearch/release/org/elasticsearch/distribution/deb/elasticsearch/2.4.1/elasticsearch-2.4.1.deb.sha1
 &gt; sudo dpkg -i elasticsearch-2.4.1.deb
 </code></pre>
-
 <h2 id="step-4">Step 4</h2>
-
 <p><strong>This is not required for single machine cluster</strong>
 Configurations file =&gt; /etc/elasticsearch/elasticsearch.yml
-Need to set these configurations differently on different machines according to what&rsquo;s needed {master nodes, data nodes, ingestion nodes}
-&gt; cluster.name: es.cluster
-&gt; // keep cluster name same for everything in the cluster
-&gt; node.name: node-1
-&gt; // keep node names different but recognizable
-&gt; node.data: true
-&gt; node.master: false
-&gt; network.host: [10.0.0.7, <em>local</em>]
-&gt; // this should contain node itself <em>local</em> is for loopback, IP is ip address in the cluster vpn.
-&gt; discovery.zen.ping.unicast.hosts: [&ldquo;10.0.0.7&rdquo;, &ldquo;10.0.0.6&rdquo;]
-&gt;  // this should contain the links to all the nodes (It may contain less then all too though. Should include itself ?)</p>
-
-<h2 id="step-5-start-stop-service">Step 5 Start/Stop Service</h2>
-
+Need to set these configurations differently on different machines according to what&rsquo;s needed {master nodes, data nodes, ingestion nodes}</p>
+<blockquote>
+<p>cluster.name: es.cluster
+// keep cluster name same for everything in the cluster
+node.name: node-1
+// keep node names different but recognizable
+node.data: true
+node.master: false
+network.host: [10.0.0.7, <em>local</em>]
+// this should contain node itself <em>local</em> is for loopback, IP is ip address in the cluster vpn.
+discovery.zen.ping.unicast.hosts: [&ldquo;10.0.0.7&rdquo;, &ldquo;10.0.0.6&rdquo;]
+// this should contain the links to all the nodes (It may contain less then all too though. Should include itself ?)</p>
+</blockquote>
+<h2 id="step-5-startstop-service">Step 5 Start/Stop Service</h2>
 <blockquote>
 <p>sudo /bin/systemctl daemon-reload
- sudo /bin/systemctl enable elasticsearch.service
- sudo systemctl start elasticsearch.service || OR sudo service elasticsearch start</p>
+sudo /bin/systemctl enable elasticsearch.service 
+sudo systemctl start elasticsearch.service || OR sudo service elasticsearch start</p>
 </blockquote>
-
 <h2 id="check-health">Check Health</h2>
-
 <p>There are many APIs with which you can check health and configuration of your cluster. I prefer the dialect below</p>
-
 <pre><code>http://master_ip:port/_cluster/stats?human&amp;pretty
 </code></pre>
 

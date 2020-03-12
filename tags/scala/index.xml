@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>scala on Life Universe and Everything</title>
@@ -19,7 +19,7 @@
       
       <guid>https://eateshk.github.io/post/scala_setup/</guid>
       <description>Preparation Step 1 - Java Installation Since scala runs on JVM we need java, it&amp;rsquo;s a good idea to install whole of jdk with it. Issuing command below will bring both JRE and Java to your machine.
-sudo apt-get install openjdk-8-jdk  Step 2 - Download Scala You can get scala from Scala website - Go here. Scroll down the page and get a debian package, with extension as .</description>
+sudo apt-get install openjdk-8-jdk Step 2 - Download Scala You can get scala from Scala website - Go here. Scroll down the page and get a debian package, with extension as .deb. You can click on it to download - or just use the command below.</description>
     </item>
     
   </channel>

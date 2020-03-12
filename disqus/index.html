@@ -5,7 +5,7 @@
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
-  <meta name="generator" content="Hugo 0.56.3" />
+  <meta name="generator" content="Hugo 0.67.0" />
 
   <title>Contact &middot; Life Universe and Everything</title>
 
@@ -236,26 +236,22 @@
   <h2></h2>
 </div>
 <div class="content">
-  <p>{{ with .Site.Params.disqus }}
-<div id="disqus_thread"></div>
-<script type="text/javascript"></p>
-
+  <p>{{ with .Site.Params.disqus }}</p>
+<!-- raw HTML omitted -->
 <p>(function() {
-    // Don&rsquo;t ever inject Disqus on localhost&ndash;it creates unwanted
-    // discussions from &lsquo;localhost:1313&rsquo; on your Disqus account&hellip;
-    if (window.location.hostname == &ldquo;localhost&rdquo;)
-        return;</p>
-
+// Don&rsquo;t ever inject Disqus on localhost&ndash;it creates unwanted
+// discussions from &lsquo;localhost:1313&rsquo; on your Disqus account&hellip;
+if (window.location.hostname == &ldquo;localhost&rdquo;)
+return;</p>
 <pre><code>var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
 var disqus_shortname = '{{ . }}';
 dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
 (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
 </code></pre>
-
 <p>})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->Please enable JavaScript to view the <!-- raw HTML omitted -->comments powered by Disqus.<!-- raw HTML omitted --><!-- raw HTML omitted -->
+<!-- raw HTML omitted -->comments powered by <!-- raw HTML omitted -->Disqus<!-- raw HTML omitted --><!-- raw HTML omitted -->
 {{ end }}</p>
 
 </div>

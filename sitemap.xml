@@ -1,6 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://eateshk.github.io/tags/elastic/</loc>
+    <lastmod>2018-11-26T00:00:00+00:00</lastmod>
+  </url>
   
   <url>
     <loc>https://eateshk.github.io/post/es_cluster_from_binary/</loc>
@@ -8,57 +13,38 @@
   </url>
   
   <url>
-    <loc>https://eateshk.github.io/</loc>
-    <lastmod>2018-11-26T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://eateshk.github.io/post/</loc>
-    <lastmod>2018-11-26T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://eateshk.github.io/topics/software-setup/</loc>
-    <lastmod>2018-11-26T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://eateshk.github.io/tags/</loc>
-    <lastmod>2018-11-26T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://eateshk.github.io/topics/</loc>
-    <lastmod>2018-11-26T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://eateshk.github.io/tags/elastic/</loc>
-    <lastmod>2018-11-26T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://eateshk.github.io/topics/elasticsearch/</loc>
     <lastmod>2018-11-26T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://eateshk.github.io/tags/elasticsearch/</loc>
     <lastmod>2018-11-26T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://eateshk.github.io/tags/es/</loc>
     <lastmod>2018-11-26T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://eateshk.github.io/post/</loc>
+    <lastmod>2018-11-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eateshk.github.io/topics/software-setup/</loc>
+    <lastmod>2018-11-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eateshk.github.io/tags/</loc>
+    <lastmod>2018-11-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eateshk.github.io/topics/</loc>
+    <lastmod>2018-11-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -67,9 +53,18 @@
   </url>
   
   <url>
+    <loc>https://eateshk.github.io/</loc>
+    <lastmod>2018-11-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://eateshk.github.io/topics/scala/</loc>
     <lastmod>2018-11-23T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://eateshk.github.io/tags/scala/</loc>
+    <lastmod>2018-11-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -78,15 +73,8 @@
   </url>
   
   <url>
-    <loc>https://eateshk.github.io/tags/scala/</loc>
-    <lastmod>2018-11-23T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://eateshk.github.io/tags/scala-setup/</loc>
     <lastmod>2018-11-23T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -112,49 +100,41 @@
   <url>
     <loc>https://eateshk.github.io/categories/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://eateshk.github.io/categories/development/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://eateshk.github.io/tags/development/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://eateshk.github.io/tags/go/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://eateshk.github.io/categories/golang/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://eateshk.github.io/tags/golang/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://eateshk.github.io/categories/golang/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://eateshk.github.io/tags/templates/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://eateshk.github.io/tags/themes/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
 </urlset>

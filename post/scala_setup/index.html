@@ -5,7 +5,7 @@
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Scala Setup on Ubuntu">
-  <meta name="generator" content="Hugo 0.56.3" />
+  <meta name="generator" content="Hugo 0.67.0" />
 
   <title>Scala Setup &middot; Life Universe and Everything</title>
 
@@ -276,50 +276,31 @@
 
 </div>
 
-  
-
-<h1 id="preparation">Preparation</h1>
-
-<h2 id="step-1-java-installation">Step 1 - Java Installation</h2>
-
+  <h1 id="preparation">Preparation</h1>
+<h2 id="step-1---java-installation">Step 1 - Java Installation</h2>
 <p>Since scala runs on JVM we need java, it&rsquo;s a good idea to install whole of jdk with it. Issuing command below will bring both JRE and Java to your machine.</p>
-
 <pre><code>sudo apt-get install openjdk-8-jdk
 </code></pre>
-
-<h2 id="step-2-download-scala">Step 2 - Download Scala</h2>
-
+<h2 id="step-2---download-scala">Step 2 - Download Scala</h2>
 <p>You can get scala from Scala website - Go <a href="https://www.scala-lang.org/download/">here</a>. Scroll down the page and get a debian package, with extension as .deb. You can click on it to download - or just use the command below.</p>
-
 <p>wget link_to_package.deb
 Example</p>
-
 <pre><code>wget https://downloads.lightbend.com/scala/2.12.7/scala-2.12.7.deb
 </code></pre>
-
-<h2 id="step-3-uncompress-and-install-scala">Step 3 - Uncompress and Install Scala</h2>
-
+<h2 id="step-3---uncompress-and-install-scala">Step 3 - Uncompress and Install Scala</h2>
 <p>Go to the directory where you&rsquo;ve downloaded the .deb package and run below commmand</p>
-
 <pre><code>sudo dpkg -i name_of_package.deb
 </code></pre>
-
-<h2 id="step-4-run-scala">Step 4 - Run Scala :)</h2>
-
+<h2 id="step-4---run-scala-">Step 4 - Run Scala :)</h2>
 <p>Run scala by typing Scala, and it&rsquo;ll fire up a scala interpreter for you. You can then fiddle with Scala. Ctrl+C when you&rsquo;re done fiddling :)</p>
-
-<h2 id="step-5-installing-scala-build-tools-sbt">Step 5 - Installing Scala Build Tools (sbt)</h2>
-
+<h2 id="step-5---installing-scala-build-tools-sbt">Step 5 - Installing Scala Build Tools (sbt)</h2>
 <p>Download SBT, link is again on the same page. Run the command below</p>
-
 <pre><code>&gt; wget https://piccolo.link/sbt-1.2.6.tgz
 &gt; tar -xvzf sbt-1.2.6.tgz
 &gt; sudo mv sbt /usr/local/
 &gt; sudo update-alternatives --install /usr/bin/sbt sbt /usr/local/sbt/bin/sbt 100
 </code></pre>
-
-<h2 id="how-scala-build-tools-sbt-works">How Scala Build Tools (sbt) works ?</h2>
-
+<h2 id="how-scala-build-tools-sbt-works-">How Scala Build Tools (sbt) works ?</h2>
 <ol>
 <li>it works on a particular project, run sbt where the project will reside. It&rsquo;ll download all the necessary libraries etc for the projet setup.</li>
 <li>What is SBT ? - build tool like ant/maven/gradle required to compile,run, test and package your software. It&rsquo;s written in scala and is modern which makes it more convenient to use with Scala.</li>
